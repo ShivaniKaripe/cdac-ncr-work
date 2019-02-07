@@ -1,0 +1,4 @@
+﻿  cAssign1Prob3.c
+c:\users\cdac\source\repos\shivanikaripe\ncrsample\cassign1prob3\project2\cassign1prob3.c(30): warning C4477: 'scanf_s' : format string '%d' requires an argument of type 'int *', but variadic argument 1 has type 'int'
+  Project2.vcxproj -> C:\Users\cdac\Source\Repos\ShivaniKaripe\ncrsample\cassign1prob3\Debug\cassign1prob3.exe
+  Project2.vcxproj -> C:\Users\cdac\Source\Repos\ShivaniKaripe\ncrsample\cassign1prob3\Debug\cassign1prob3.pdb (Partial PDB)
