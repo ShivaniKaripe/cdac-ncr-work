@@ -1,0 +1,5 @@
+﻿  cassign5prob7.c
+c:\users\cdac\source\repos\shivanikaripe\cdac-ncr-work\cassignments\c_assignment_5\cassign5prob7\cassign5prob7\cassign5prob7.c(18): warning C4013: 'gets' undefined; assuming extern returning int
+c:\users\cdac\source\repos\shivanikaripe\cdac-ncr-work\cassignments\c_assignment_5\cassign5prob7\cassign5prob7\cassign5prob7.c(19): warning C4018: '<': signed/unsigned mismatch
+  cassign5prob7.vcxproj -> C:\Users\cdac\Source\Repos\ShivaniKaripe\cdac-ncr-work\cassignments\c_assignment_5\cassign5prob7\Debug\cassign5prob7.exe
+  cassign5prob7.vcxproj -> C:\Users\cdac\Source\Repos\ShivaniKaripe\cdac-ncr-work\cassignments\c_assignment_5\cassign5prob7\Debug\cassign5prob7.pdb (Partial PDB)

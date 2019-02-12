@@ -1,0 +1,5 @@
+﻿  cassign5prob8.c
+c:\users\cdac\source\repos\shivanikaripe\cdac-ncr-work\cassignments\c_assignment_5\cassign5prob8\cassign5prob8\cassign5prob8.c(10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\cdac\source\repos\shivanikaripe\cdac-ncr-work\cassignments\c_assignment_5\cassign5prob8\cassign5prob8\cassign5prob8.c(21): warning C4013: 'system' undefined; assuming extern returning int
+  cassign5prob8.vcxproj -> C:\Users\cdac\Source\Repos\ShivaniKaripe\cdac-ncr-work\cassignments\c_assignment_5\cassign5prob8\Debug\cassign5prob8.exe
+  cassign5prob8.vcxproj -> C:\Users\cdac\Source\Repos\ShivaniKaripe\cdac-ncr-work\cassignments\c_assignment_5\cassign5prob8\Debug\cassign5prob8.pdb (Partial PDB)
