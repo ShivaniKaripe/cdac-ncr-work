@@ -18,7 +18,7 @@ int main()
 	printme(9);
 
 #endif // 
-	system("pause");
+
 
 
 }
