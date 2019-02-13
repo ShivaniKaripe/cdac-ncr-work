@@ -1,5 +1,4 @@
 ﻿  cassign5prob9.c
-c:\users\cdac\source\repos\shivanikaripe\cdac-ncr-work\cassignments\c_assignment_5\cassign5prob9\cassign5prob9\cassign5prob9.c(27): warning C4550: expression evaluates to a function which is missing an argument list
-c:\users\cdac\source\repos\shivanikaripe\cdac-ncr-work\cassignments\c_assignment_5\cassign5prob9\cassign5prob9\cassign5prob9.c(32): warning C4013: 'system' undefined; assuming extern returning int
+c:\users\cdac\source\repos\shivanikaripe\cdac-ncr-work\cassignments\c_assignment_5\cassign5prob9\cassign5prob9\cassign5prob9.c(40): warning C4013: 'system' undefined; assuming extern returning int
   cassign5prob9.vcxproj -> C:\Users\cdac\Source\Repos\ShivaniKaripe\cdac-ncr-work\cassignments\c_assignment_5\cassign5prob9\Debug\cassign5prob9.exe
   cassign5prob9.vcxproj -> C:\Users\cdac\Source\Repos\ShivaniKaripe\cdac-ncr-work\cassignments\c_assignment_5\cassign5prob9\Debug\cassign5prob9.pdb (Partial PDB)

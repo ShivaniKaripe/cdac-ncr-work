@@ -24,10 +24,12 @@ int main()
 		fputc(ch, fp);
 	}
 	rewind(fp);
-	while (!feof)
+	 
+	while (!feof(fp))
 	{
-		ch=fgetc(fp);
+		ch = fgetc(fp);
 		printf_s("%c", ch);
 	}
+
 	system("pause");
 }
