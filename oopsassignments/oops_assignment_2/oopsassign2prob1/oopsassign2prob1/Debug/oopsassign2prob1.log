@@ -1,0 +1,5 @@
+﻿  oopsassign2prob1.cpp
+c:\users\friends\source\repos\shivanikaripe\cdac-ncr-work\oopsassignments\oops_assignment_2\oopsassign2prob1\oopsassign2prob1\oopsassign2prob1.cpp(14): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\friends\source\repos\shivanikaripe\cdac-ncr-work\oopsassignments\oops_assignment_2\oopsassign2prob1\oopsassign2prob1\oopsassign2prob1.cpp(23): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\friends\source\repos\shivanikaripe\cdac-ncr-work\oopsassignments\oops_assignment_2\oopsassign2prob1\oopsassign2prob1\oopsassign2prob1.cpp(24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  oopsassign2prob1.vcxproj -> C:\Users\Friends\source\repos\ShivaniKaripe\cdac-ncr-work\oopsassignments\oops_assignment_2\oopsassign2prob1\Debug\oopsassign2prob1.exe
