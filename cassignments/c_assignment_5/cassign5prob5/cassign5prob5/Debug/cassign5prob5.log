@@ -1,0 +1,5 @@
+﻿  cassign5prob5.c
+c:\users\friends\source\repos\shivanikaripe\cdac-ncr-work\cassignments\c_assignment_5\cassign5prob5\cassign5prob5\cassign5prob5.c(16): warning C4013: 'abs' undefined; assuming extern returning int
+c:\users\friends\source\repos\shivanikaripe\cdac-ncr-work\cassignments\c_assignment_5\cassign5prob5\cassign5prob5\cassign5prob5.c(17): warning C4013: 'system' undefined; assuming extern returning int
+c:\users\friends\source\repos\shivanikaripe\cdac-ncr-work\cassignments\c_assignment_5\cassign5prob5\cassign5prob5\cassign5prob5.c(14): warning C4101: 'days': unreferenced local variable
+  cassign5prob5.vcxproj -> C:\Users\Friends\source\repos\ShivaniKaripe\cdac-ncr-work\cassignments\c_assignment_5\cassign5prob5\Debug\cassign5prob5.exe
