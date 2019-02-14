@@ -1,0 +1,6 @@
+﻿  cassign4prob4.c
+c:\users\cdac\source\repos\shivanikaripe\cdac-ncr-work\cassignments\c_assignment_4\cassign4prob4\cassign4prob4\cassign4prob4.c(8): warning C4013: 'gets' undefined; assuming extern returning int
+c:\users\cdac\source\repos\shivanikaripe\cdac-ncr-work\cassignments\c_assignment_4\cassign4prob4\cassign4prob4\cassign4prob4.c(22): warning C4018: '<': signed/unsigned mismatch
+c:\users\cdac\source\repos\shivanikaripe\cdac-ncr-work\cassignments\c_assignment_4\cassign4prob4\cassign4prob4\cassign4prob4.c(24): warning C4047: '==': 'int' differs in levels of indirection from 'char [1]'
+  cassign4prob4.vcxproj -> C:\Users\cdac\Source\Repos\ShivaniKaripe\cdac-ncr-work\cassignments\c_assignment_4\cassign4prob4\Debug\cassign4prob4.exe
+  cassign4prob4.vcxproj -> C:\Users\cdac\Source\Repos\ShivaniKaripe\cdac-ncr-work\cassignments\c_assignment_4\cassign4prob4\Debug\cassign4prob4.pdb (Partial PDB)
