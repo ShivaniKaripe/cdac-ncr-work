@@ -1,4 +1,0 @@
-﻿  cassign4prob2.c
-c:\users\friends\source\repos\shivanikaripe\cdac-ncr-work\cassignments\c_assignment_4\cassign4prob2\cassign4prob2\cassign4prob2.c(11): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'char **'
-c:\users\friends\source\repos\shivanikaripe\cdac-ncr-work\cassignments\c_assignment_4\cassign4prob2\cassign4prob2\cassign4prob2.c(13): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'char **'
-  cassign4prob2.vcxproj -> C:\Users\Friends\source\repos\ShivaniKaripe\cdac-ncr-work\cassignments\c_assignment_4\cassign4prob2\Debug\cassign4prob2.exe
