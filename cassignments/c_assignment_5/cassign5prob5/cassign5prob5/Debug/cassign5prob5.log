@@ -1,0 +1,12 @@
+﻿  cassign5prob5.c
+<<<<<<< HEAD
+c:\users\cdac\source\repos\shivanikaripe\cdac-ncr-work\cassignments\c_assignment_5\cassign5prob5\cassign5prob5\cassign5prob5.c(25): warning C4013: 'system' undefined; assuming extern returning int
+c:\users\cdac\source\repos\shivanikaripe\cdac-ncr-work\cassignments\c_assignment_5\cassign5prob5\cassign5prob5\cassign5prob5.c(10): warning C4101: 'temp': unreferenced local variable
+  cassign5prob5.vcxproj -> C:\Users\cdac\Source\Repos\ShivaniKaripe\cdac-ncr-work\cassignments\c_assignment_5\cassign5prob5\Debug\cassign5prob5.exe
+  cassign5prob5.vcxproj -> C:\Users\cdac\Source\Repos\ShivaniKaripe\cdac-ncr-work\cassignments\c_assignment_5\cassign5prob5\Debug\cassign5prob5.pdb (Partial PDB)
+=======
+c:\users\friends\source\repos\shivanikaripe\cdac-ncr-work\cassignments\c_assignment_5\cassign5prob5\cassign5prob5\cassign5prob5.c(16): warning C4013: 'abs' undefined; assuming extern returning int
+c:\users\friends\source\repos\shivanikaripe\cdac-ncr-work\cassignments\c_assignment_5\cassign5prob5\cassign5prob5\cassign5prob5.c(17): warning C4013: 'system' undefined; assuming extern returning int
+c:\users\friends\source\repos\shivanikaripe\cdac-ncr-work\cassignments\c_assignment_5\cassign5prob5\cassign5prob5\cassign5prob5.c(14): warning C4101: 'days': unreferenced local variable
+  cassign5prob5.vcxproj -> C:\Users\Friends\source\repos\ShivaniKaripe\cdac-ncr-work\cassignments\c_assignment_5\cassign5prob5\Debug\cassign5prob5.exe
+>>>>>>> e18e7f535f98da464ddf4fac7cf871c41664e165
