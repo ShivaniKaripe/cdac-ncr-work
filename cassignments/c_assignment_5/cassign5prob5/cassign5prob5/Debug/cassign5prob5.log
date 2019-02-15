@@ -1,0 +1,5 @@
+﻿  cassign5prob5.c
+c:\users\cdac\source\repos\shivanikaripe\cdac-ncr-work\cassignments\c_assignment_5\cassign5prob5\cassign5prob5\cassign5prob5.c(25): warning C4013: 'system' undefined; assuming extern returning int
+c:\users\cdac\source\repos\shivanikaripe\cdac-ncr-work\cassignments\c_assignment_5\cassign5prob5\cassign5prob5\cassign5prob5.c(10): warning C4101: 'temp': unreferenced local variable
+  cassign5prob5.vcxproj -> C:\Users\cdac\Source\Repos\ShivaniKaripe\cdac-ncr-work\cassignments\c_assignment_5\cassign5prob5\Debug\cassign5prob5.exe
+  cassign5prob5.vcxproj -> C:\Users\cdac\Source\Repos\ShivaniKaripe\cdac-ncr-work\cassignments\c_assignment_5\cassign5prob5\Debug\cassign5prob5.pdb (Partial PDB)
