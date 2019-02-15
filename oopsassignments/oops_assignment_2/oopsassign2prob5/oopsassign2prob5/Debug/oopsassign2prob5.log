@@ -1,0 +1,9 @@
+﻿  oopsassign2prob5.cpp
+c:\users\cdac\source\repos\shivanikaripe\cdac-ncr-work\oopsassignments\oops_assignment_2\oopsassign2prob1\oopsassign2prob5\oopsassign2prob5\oopsassign2prob5.cpp(21): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\users\cdac\source\repos\shivanikaripe\cdac-ncr-work\oopsassignments\oops_assignment_2\oopsassign2prob1\oopsassign2prob5\oopsassign2prob5\oopsassign2prob5.cpp(27): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\users\cdac\source\repos\shivanikaripe\cdac-ncr-work\oopsassignments\oops_assignment_2\oopsassign2prob1\oopsassign2prob5\oopsassign2prob5\oopsassign2prob5.cpp(38): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(90): note: see declaration of 'strcat'
+c:\users\cdac\source\repos\shivanikaripe\cdac-ncr-work\oopsassignments\oops_assignment_2\oopsassign2prob1\oopsassign2prob5\oopsassign2prob5\oopsassign2prob5.cpp(52): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
