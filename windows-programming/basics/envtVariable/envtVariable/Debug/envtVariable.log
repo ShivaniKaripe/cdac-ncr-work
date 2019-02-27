@@ -1,0 +1,13 @@
+﻿  Source.cpp
+c:\users\cdac\source\repos\shivanikaripe\cdac-ncr-work\windows-programming\basics\envtvariable\envtvariable\source.cpp(23): warning C4477: 'wprintf' : format string '%S' requires an argument of type 'char *', but variadic argument 2 has type 'PTSTR'
+  c:\users\cdac\source\repos\shivanikaripe\cdac-ncr-work\windows-programming\basics\envtvariable\envtvariable\source.cpp(23): note: consider using '%lS' in the format string
+  c:\users\cdac\source\repos\shivanikaripe\cdac-ncr-work\windows-programming\basics\envtvariable\envtvariable\source.cpp(23): note: consider using '%llS' in the format string
+  c:\users\cdac\source\repos\shivanikaripe\cdac-ncr-work\windows-programming\basics\envtvariable\envtvariable\source.cpp(23): note: consider using '%LS' in the format string
+  c:\users\cdac\source\repos\shivanikaripe\cdac-ncr-work\windows-programming\basics\envtvariable\envtvariable\source.cpp(23): note: consider using '%wS' in the format string
+c:\users\cdac\source\repos\shivanikaripe\cdac-ncr-work\windows-programming\basics\envtvariable\envtvariable\source.cpp(44): warning C4477: 'printf_s' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'TCHAR *'
+  c:\users\cdac\source\repos\shivanikaripe\cdac-ncr-work\windows-programming\basics\envtvariable\envtvariable\source.cpp(44): note: consider using '%ls' in the format string
+  c:\users\cdac\source\repos\shivanikaripe\cdac-ncr-work\windows-programming\basics\envtvariable\envtvariable\source.cpp(44): note: consider using '%lls' in the format string
+  c:\users\cdac\source\repos\shivanikaripe\cdac-ncr-work\windows-programming\basics\envtvariable\envtvariable\source.cpp(44): note: consider using '%Ls' in the format string
+  c:\users\cdac\source\repos\shivanikaripe\cdac-ncr-work\windows-programming\basics\envtvariable\envtvariable\source.cpp(44): note: consider using '%ws' in the format string
+  envtVariable.vcxproj -> C:\Users\cdac\Source\Repos\ShivaniKaripe\cdac-ncr-work\windows-programming\basics\envtVariable\Debug\envtVariable.exe
+  envtVariable.vcxproj -> C:\Users\cdac\Source\Repos\ShivaniKaripe\cdac-ncr-work\windows-programming\basics\envtVariable\Debug\envtVariable.pdb (Full PDB)
