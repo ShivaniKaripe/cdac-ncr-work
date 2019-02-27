@@ -1,0 +1,7 @@
+Write a program to convert ANSI string to Wide character string and vice versa. Use MultiByteToWideChar and WideCharToMultiByte for conversion and IsTextUnicode for testing the results.
+Implement a program where command line arguments passed to program are read via CommandLineToArgvW.
+Write a program to print environment variables passed to the console application. Also demonstrate the usage of ExpandEnvironmentStrings API. 
+Write a program to open an existing file with CreateFile and use ReadFile to read the contents of file till EOF and print the contents to console.
+Write a program to create a new file with CreateFile and use WriteFile to write text to file. Verify the written text by manually opening file in notepad/wordpad etc.
+Write a program which uses the API “CreateProcess” to create two child processes (say calc.exe and notepad.exe). Print handle and process Id of each child process. 
+Create a named event object with CreateEvent. Verify the presence of the created mutex with WinObj (Hint: Look in \ > Sessions > 11 > BaseNamedObjects). Also verify how kernel object is deleted when no longer used.
