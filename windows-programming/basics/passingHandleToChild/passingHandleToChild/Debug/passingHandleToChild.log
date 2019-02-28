@@ -1,0 +1,6 @@
+﻿  Source.cpp
+c:\users\cdac\source\repos\shivanikaripe\cdac-ncr-work\windows-programming\basics\passinghandletochild\passinghandletochild\source.cpp(66): warning C4477: 'swprintf' : format string '%i' requires an argument of type 'int', but variadic argument 2 has type 'HANDLE'
+c:\users\cdac\source\repos\shivanikaripe\cdac-ncr-work\windows-programming\basics\passinghandletochild\passinghandletochild\source.cpp(68): warning C4477: 'printf' : format string '%i' requires an argument of type 'int', but variadic argument 2 has type 'HANDLE'
+c:\users\cdac\source\repos\shivanikaripe\cdac-ncr-work\windows-programming\basics\passinghandletochild\passinghandletochild\source.cpp(92): warning C4477: 'printf' : format string '%i' requires an argument of type 'int', but variadic argument 2 has type 'HANDLE'
+  passingHandleToChild.vcxproj -> C:\Users\cdac\Source\Repos\ShivaniKaripe\cdac-ncr-work\windows-programming\basics\passingHandleToChild\Debug\passingHandleToChild.exe
+  passingHandleToChild.vcxproj -> C:\Users\cdac\Source\Repos\ShivaniKaripe\cdac-ncr-work\windows-programming\basics\passingHandleToChild\Debug\passingHandleToChild.pdb (Full PDB)
