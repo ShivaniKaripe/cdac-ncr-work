@@ -1,0 +1,4 @@
+﻿  Source.cpp
+c:\users\cdac\source\repos\shivanikaripe\cdac-ncr-work\windows-programming\basics\sharedvariable-consistent\sharedvariable-consistent\source.cpp(24): warning C4101: 'dw2': unreferenced local variable
+  sharedVariable-consistent.vcxproj -> C:\Users\cdac\Source\Repos\ShivaniKaripe\cdac-ncr-work\windows-programming\basics\sharedVariable-consistent\Debug\sharedVariable-consistent.exe
+  sharedVariable-consistent.vcxproj -> C:\Users\cdac\Source\Repos\ShivaniKaripe\cdac-ncr-work\windows-programming\basics\sharedVariable-consistent\Debug\sharedVariable-consistent.pdb (Full PDB)
