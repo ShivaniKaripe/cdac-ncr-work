@@ -1,3 +1,4 @@
+
 /*infix to postfix evaluation using stack*/
  
 #include<iostream>
@@ -124,12 +125,16 @@ int main()
 			}
 			st.pop();
 		}
-		else if (precedence(ipstr[i]) < precedence(st.peek()))
-			st.push(ipstr[i]);
-		else
-			while ( (precedence(ipstr[i]) > precedence(st.peek())))
+		 
+		else if(precedence(ipstr[i])<=precedence(st.peek())
+			{
+		while ( (precedence(ipstr[i]) <= precedence(st.peek())))
 				opstr[++j] = st.pop();
-	}
+			push(ipstr[i]);
+			}
+			}
+		else
+			push(ipstr[i]);
 	 while(!st.isEmpty())
 	{
 		 opstr[++j] = st.pop();
