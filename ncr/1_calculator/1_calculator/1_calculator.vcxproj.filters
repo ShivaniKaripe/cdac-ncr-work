@@ -18,13 +18,16 @@
     <ClCompile Include="Source.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="balancing_paranthesis.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="postfixEval.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="infixToPostfix.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="balancing_paranthesis.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dummy.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

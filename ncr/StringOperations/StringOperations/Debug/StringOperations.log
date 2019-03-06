@@ -1,0 +1,3 @@
+﻿  Source.c
+c:\users\friends\source\repos\shivanikaripe\cdac-ncr-work\ncr\stringoperations\stringoperations\source.c(75): warning C4013: 'strlen' undefined; assuming extern returning int
+  StringOperations.vcxproj -> C:\Users\Friends\source\repos\ShivaniKaripe\cdac-ncr-work\ncr\StringOperations\Debug\StringOperations.exe

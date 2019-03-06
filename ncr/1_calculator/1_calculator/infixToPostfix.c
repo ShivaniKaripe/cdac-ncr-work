@@ -5,19 +5,13 @@ int top = -1;
 char stack[MAX_SIZE];
 void push(char item)
 {
-	if (MAX_SIZE == top)
-		printf_s("stack is full");
-	else
+	 
 		stack[++top] = item;
 }
 char pop()
 {
 
-	if (-1 == top)
-	{
-		printf_s("stack is empty");
-		exit(1);
-	}
+	
 
 	return stack[top--];
 }
@@ -100,6 +94,11 @@ char * infixToPostfix(char str[])
 			 
 			
 		}
+	}
+	result[j++] = '@';
+	while (top != -1)
+	{
+		result[j++] = pop();
 	}
 	return result;
 }
