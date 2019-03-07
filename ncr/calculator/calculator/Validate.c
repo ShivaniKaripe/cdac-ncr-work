@@ -1,30 +1,22 @@
 #include<stdio.h>
 #include<string.h>
+//"isBalanedParanthesis" function declaration
 int isBalancedParathesis(char *);
-int noSpeacialcharacters(char *);
+//int noSpeacialcharacters(char *);
+//"isValidExpression" checks whether the expression is valid or not
 int isValidExpression(char *str)
 {
+	//checks if the paranthesis in the expression are balance or not
 	if (isBalancedParathesis(str) == 1)
 	{
-		if (noSpeacialcharacters(str)==1)
-		{
-			if (str[0] <= '9'&&str[0] >= '0'&&str[strlen(str) - 1] <= '9'&&str[strlen(str) - 1] >= '0')
-				return 1;
-			else
-			{
-				printf_s("\n first or last character of the expression is invalid");
-				return 0;
-			}
-		}
-		else
-		{
-			printf_s("\n special characters are there");
-			return 0;
-		}
+		 //if balance parantheisi are there then function returns '1'
+		return 1;
 	}
 	else
 	{
-		printf_s("\n no balanced paranthesis");
+		//if balance parantheisi are not there then function returns '0'
+		printf_s("\n in the expression balanced paranthesis are not there");
+		printf_s("\n the expression is invalid");
 		return 0;
 	}
 }

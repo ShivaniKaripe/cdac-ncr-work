@@ -56,6 +56,7 @@ int isBalancedParathesis(char *str)
 	}
 	if (-1 == top)
 	{
+		printf_s("balanced exp");
 		return 1;
 	}
 	else
