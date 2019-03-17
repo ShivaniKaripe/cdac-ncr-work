@@ -75,6 +75,7 @@ ostream& operator<<(ostream &cout, String s)//function for overloading <<operato
 }
 int main()
 {
+<<<<<<< HEAD
 	String stringobj1, stringObj2, resultObj3;//creating the objects
 	
 	cin >> stringobj1;
@@ -93,4 +94,24 @@ int main()
 	cout << stringObj2[3];
 	system("pause");
 	return 0;
+=======
+	String input1, input2, result;
+	cout<<"enter the first string"<<endl;
+	cin >> input1;
+	cout<<"enter the second string"<<endl;
+	cin >> input2;
+	
+	result = input1 + input2;
+	cout << "the result of concatenation of strings is is" << endl;
+	cout << result;
+	cout << endl;
+	result = input2;
+	cout << "the result of e is" << endl;
+	cout << result;
+	cout << endl;
+	input2[3] = 'p';
+	cout << "the result after performing s2[3]='p' is" << endl;
+	cout << input2[3];
+
+>>>>>>> fa08f75f682e552beb9e48613c54a1ee30581af7
 }
