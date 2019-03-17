@@ -1,3 +1,7 @@
-﻿  exprEvaluate.c
-c:\users\friends\source\repos\shivanikaripe\cdac-ncr-work\ncr\calculator\calculator\exprevaluate.c(11): warning C4013: 'InfixToPostfix' undefined; assuming extern returning int
+﻿  Source.c
+c:\users\friends\source\repos\shivanikaripe\cdac-ncr-work\ncr\calculator\calculator\source.c(26): warning C4013: 'system' undefined; assuming extern returning int
+  paranthesisBalance.c
+c:\users\friends\source\repos\shivanikaripe\cdac-ncr-work\ncr\calculator\calculator\paranthesisbalance.c(19): warning C4305: 'return': truncation from 'int' to 'char'
+c:\users\friends\source\repos\shivanikaripe\cdac-ncr-work\ncr\calculator\calculator\paranthesisbalance.c(29): warning C4305: 'return': truncation from 'int' to 'char'
+  Generating Code...
   calculator.vcxproj -> C:\Users\Friends\source\repos\ShivaniKaripe\cdac-ncr-work\ncr\Debug\calculator.exe

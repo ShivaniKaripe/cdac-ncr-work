@@ -1,4 +1,3 @@
 ﻿  Source.c
-c:\users\friends\source\repos\shivanikaripe\cdac-ncr-work\ncr\expandstring\expandstring\source.c(56): warning C4013: 'gets' undefined; assuming extern returning int
-c:\users\friends\source\repos\shivanikaripe\cdac-ncr-work\ncr\expandstring\expandstring\source.c(53): warning C4101: 'size1': unreferenced local variable
+c:\users\friends\source\repos\shivanikaripe\cdac-ncr-work\ncr\expandstring\expandstring\source.c(60): warning C4013: 'gets' undefined; assuming extern returning int
   expandString.vcxproj -> C:\Users\Friends\source\repos\ShivaniKaripe\cdac-ncr-work\ncr\expandString\Debug\expandString.exe

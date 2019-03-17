@@ -6,7 +6,7 @@
 int evaluateExpression(char * str)
 {
 
-	printf_s("in eval");
+	 
 	//conversion of infixToPostfix 
 	//it returns the result of the expression
 	int temp_result = InfixToPostfix(str);

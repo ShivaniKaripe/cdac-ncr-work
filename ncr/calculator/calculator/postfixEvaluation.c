@@ -14,7 +14,7 @@ int pop2()
 
 int postfixEval(char *exp)
 {
-	printf("\n in pofx");
+	 
 	char *e;
 	int n1, n2, n3, num;
 	 

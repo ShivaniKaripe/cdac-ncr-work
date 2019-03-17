@@ -16,7 +16,7 @@ int main()
 	printf("enter the expression to be evaluated");
 	gets_s(str, MAX_SIZE);
 	//checking whether it is valid expression or not
-	if (1 == isValidExpression(str))
+	if (1 ==isValidExpression(str))
 	{
 		//if it is valid expression then "evaluateExpression" is called
 		final_res = evaluateExpression(str);
