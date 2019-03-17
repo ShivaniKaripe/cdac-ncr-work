@@ -72,20 +72,22 @@ ostream& operator<<(ostream &cout, String s)
 }
 int main()
 {
-	String s1, s2, s3;
+	String input1, input2, result;
+	cout<<"enter the first string"<<endl;
+	cin >> input1;
+	cout<<"enter the second string"<<endl;
+	cin >> input2;
 	
-	cin >> s1;
-	cin >> s2;
-	s3 = s1 + s2;
-	cout << "the result of s3=s1+s2 is" << endl;
-	cout << s3;
+	result = input1 + input2;
+	cout << "the result of concatenation of strings is is" << endl;
+	cout << result;
 	cout << endl;
-	s3 = s2;
-	cout << "the result of s3=s2 is" << endl;
-	cout << s3;
+	result = input2;
+	cout << "the result of e is" << endl;
+	cout << result;
 	cout << endl;
-	s2[3] = 'p';
+	input2[3] = 'p';
 	cout << "the result after performing s2[3]='p' is" << endl;
-	cout << s2[3];
+	cout << input2[3];
 
 }
