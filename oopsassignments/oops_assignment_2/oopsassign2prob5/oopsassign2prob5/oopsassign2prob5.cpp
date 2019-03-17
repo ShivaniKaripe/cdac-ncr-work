@@ -2,40 +2,43 @@
 constructor, parameterized constructors, copy constructor, destructor, Overload +,
 [], =, <<, >> operators. Observe the behavior of shallow copying and deep copying.*/
 #include<iostream>
-#include<string.h>
+#include<string>
+#include<stdlib.h>
 using namespace std;
+//creates a class named string
 class String
 {
 	char *ptr;
-	int l;
+	int length;
 public:
 	String()
 	{
 		ptr = NULL;
-		l = 0;
+		length = 0;
 	}
-	String(char *p, int len)
+	String(char *p, int len)//parameterised constructor
 	{
 		ptr = new char[len+1];
-		l = len;
-		strcpy(ptr, p);
+		length = len;
+		strcpy_s(ptr,length+1, p);
 	}
-	String(const String &s)
+	String(const String &s)//copy constructor
 	{
-		l = s.l;
-		ptr = new char[l + 1];
-		strcpy(ptr, s.ptr);
+		length = s.length;
+		ptr = new char[length + 1];
+		strcpy_s(ptr, length+1 ,s.ptr);
 	}
-	~String()
+	~String()//destructor
 	{
 		//destructor
 	}
-	String operator+(String s)
+	String operator+(String s)//function for string concatenation
 	{
 		String temp;
-		temp.l = l + s.l;
-		temp.ptr = new char[(temp.l+1)];
-		temp.ptr = strcat(ptr, s.ptr);
+		temp.length = length + s.length;
+		temp.ptr = new char[(temp.length+1)];
+		strcpy_s(temp.ptr, length + 1, ptr);
+	    strcat_s(temp.ptr,(temp.length+1), s.ptr);
 		return temp;
 	}
 	char& operator[](int i)
@@ -43,49 +46,51 @@ public:
 		 
 		return ptr[i];
 	}
-	String operator=(String s)
+	String operator=(String s)//function for string comparion
 	{
-		l = s.l;
+		length = s.length;
 		if (ptr != NULL)
 			delete ptr;
-		ptr = new char[(l + 1)];
-		strcpy(ptr, s.ptr);
+		ptr = new char[(length + 1)];
+		strcpy_s(ptr,length+1 ,s.ptr);
 		return(*this);
 	}
 	friend istream& operator>> (istream &cin, String &s);
 	friend ostream& operator<<(ostream &cout, String s);
 	 
 };
-istream& operator>> (istream &cin, String &s)
+istream& operator>> (istream &cin, String &s)//function for overloading >> operator
 {
 	cout << "enter the lnghth of the string and enter the string";
-	std::cin >>s.l;
-	s.ptr = new char[(s.l + 1)];
+	std::cin >>s.length;
+	s.ptr = new char[(s.length + 1)];
 	std::cin >>s.ptr;
 	return cin;
 }
-ostream& operator<<(ostream &cout, String s)
+ostream& operator<<(ostream &cout, String s)//function for overloading <<operator
 {
-	cout << "the length of the string is" << s.l << endl;
+	cout << "the length of the string is" << s.length << endl;
 	cout << "the string is " << s.ptr << endl;
 	return cout;
 }
 int main()
 {
-	String s1, s2, s3;
+	String stringobj1, stringObj2, resultObj3;//creating the objects
 	
-	cin >> s1;
-	cin >> s2;
-	s3 = s1 + s2;
+	cin >> stringobj1;
+	cin >> stringObj2;
+	resultObj3 = stringobj1 + stringObj2;
 	cout << "the result of s3=s1+s2 is" << endl;
-	cout << s3;
+	cout << resultObj3;
 	cout << endl;
-	s3 = s2;
+	resultObj3 = stringObj2;
 	cout << "the result of s3=s2 is" << endl;
-	cout << s3;
+	cout << resultObj3;
 	cout << endl;
-	s2[3] = 'p';
+	stringObj2[3] = 'p';
 	cout << "the result after performing s2[3]='p' is" << endl;
-	cout << s2[3];
-
+	cout << "the element at position 3 of stringObj2 is" << endl;
+	cout << stringObj2[3];
+	system("pause");
+	return 0;
 }
