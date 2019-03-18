@@ -115,6 +115,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="complex.cpp" />
     <ClCompile Include="genericStack.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
