@@ -52,6 +52,6 @@ int main()
 	t1.display();
 	t3 = t1 + t2;
 	t3.display();
-	system("pause");
+	
 	return 0;
 }

@@ -1,0 +1,3 @@
+﻿  Source.cpp
+c:\users\friends\source\repos\shivanikaripe\cdac-ncr-work\windows-programming\cdac-project-dummy\eventtracing\eventtracing\source.cpp(26): warning C4326: return type of 'wmain' should be 'int' instead of 'void'
+  eventtracing.vcxproj -> C:\Users\Friends\source\repos\ShivaniKaripe\cdac-ncr-work\windows-programming\cdac-project-dummy\eventtracing\Debug\eventtracing.exe

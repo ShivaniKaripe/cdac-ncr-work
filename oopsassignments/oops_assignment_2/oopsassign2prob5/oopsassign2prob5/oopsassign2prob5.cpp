@@ -75,43 +75,102 @@ ostream& operator<<(ostream &cout, String s)//function for overloading <<operato
 }
 int main()
 {
-<<<<<<< HEAD
-	String stringobj1, stringObj2, resultObj3;//creating the objects
+
+	String inputString1, inputString2, result;//creating the objects
+	char choice[10];
+	int position = 0;
+	char replace;
+	cin >> inputString1;
+		strcpy_s(choice, 10, "");
+		while (*choice != '7')
+		{
+			cout << "choose the options from below" << endl;
+			cout << "1.string concatenation" << endl;
+			cout << "2.copying string to other" << endl;
+			cout << "3.replacing a character of string" << endl;
+			cout << "4.exit from loop";
+			cout << endl;
+			cout << "ENTER YOUR CHOICE";
+			cin >> choice;
 	
-	cin >> stringobj1;
-	cin >> stringObj2;
-	resultObj3 = stringobj1 + stringObj2;
-	cout << "the result of s3=s1+s2 is" << endl;
-	cout << resultObj3;
-	cout << endl;
-	resultObj3 = stringObj2;
-	cout << "the result of s3=s2 is" << endl;
-	cout << resultObj3;
-	cout << endl;
-	stringObj2[3] = 'p';
-	cout << "the result after performing s2[3]='p' is" << endl;
-	cout << "the element at position 3 of stringObj2 is" << endl;
-	cout << stringObj2[3];
+			if (strcmp("1", choice) == 0 || strcmp("2", choice) == 0 || strcmp("3", choice) == 0 || strcmp("4", choice) == 0  )
+			{
+				if (*choice != '4')
+				{
+	
+					switch (*choice)
+					{
+					case '1':
+						try
+						{
+							cin >> inputString2;
+							result = inputString1 + inputString2;
+							inputString1(inputString2);
+							cout << "the result of s3=s1+s2 is" << endl;
+							cout << result;
+							cout << endl;
+	
+						}
+	
+						catch (...)
+						{
+							cout << "exception in concatenation" << endl;
+						}
+						break;
+					case '2':
+						try
+						{
+							result = inputString2;
+							cout << "the result of s3=s2 is" << endl;
+							cout << result;
+							cout << endl;
+						}
+						catch (...)
+						{
+							cout << "exception in copying a string to other" << endl;
+						}
+						break;
+					case '3':
+						try
+						{
+							cout << "the string is" << inputString1;
+							cout << "enter the position of character you want to replece" << endl;
+							cin >> position;
+							cout << "enter the  character you want to replece with " << endl;
+							cin >> replace;
+							inputString2[position] = replace;
+							cout << "the result after performing replacing operation is is" << endl;
+							cout << "the element at position 3 of stringObj2 is" << endl;
+							cout << inputString2[3];
+	
+						}
+						catch (...)
+						{
+							cout << "exception in  replacing" << endl;
+						}
+						break;
+					 default:
+						break;
+					}
+				}
+				else
+				{
+					break;
+				}
+			}
+			else
+			{
+				cout << "enter a valid choice" << endl;
+			}
+		}
+	
+	
+	
+	
+	
 	system("pause");
 	return 0;
-=======
-	String input1, input2, result;
-	cout<<"enter the first string"<<endl;
-	cin >> input1;
-	cout<<"enter the second string"<<endl;
-	cin >> input2;
-	
-	result = input1 + input2;
-	cout << "the result of concatenation of strings is is" << endl;
-	cout << result;
-	cout << endl;
-	result = input2;
-	cout << "the result of e is" << endl;
-	cout << result;
-	cout << endl;
-	input2[3] = 'p';
-	cout << "the result after performing s2[3]='p' is" << endl;
-	cout << input2[3];
+ 
 
->>>>>>> fa08f75f682e552beb9e48613c54a1ee30581af7
+
 }

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "eventtracing", "eventtracing\eventtracing.vcxproj", "{23E53EDB-7B8B-4091-ABA8-C10B54EBA2B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23E53EDB-7B8B-4091-ABA8-C10B54EBA2B1}.Debug|x64.ActiveCfg = Debug|x64
+		{23E53EDB-7B8B-4091-ABA8-C10B54EBA2B1}.Debug|x64.Build.0 = Debug|x64
+		{23E53EDB-7B8B-4091-ABA8-C10B54EBA2B1}.Debug|x86.ActiveCfg = Debug|Win32
+		{23E53EDB-7B8B-4091-ABA8-C10B54EBA2B1}.Debug|x86.Build.0 = Debug|Win32
+		{23E53EDB-7B8B-4091-ABA8-C10B54EBA2B1}.Release|x64.ActiveCfg = Release|x64
+		{23E53EDB-7B8B-4091-ABA8-C10B54EBA2B1}.Release|x64.Build.0 = Release|x64
+		{23E53EDB-7B8B-4091-ABA8-C10B54EBA2B1}.Release|x86.ActiveCfg = Release|Win32
+		{23E53EDB-7B8B-4091-ABA8-C10B54EBA2B1}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16F2F019-850F-4B7C-801E-88D850A3B861}
+	EndGlobalSection
+EndGlobal

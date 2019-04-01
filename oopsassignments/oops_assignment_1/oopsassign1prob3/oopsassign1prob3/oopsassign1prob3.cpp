@@ -84,7 +84,7 @@ public:
 		}
 		catch (int ) {};
 		 returnFloat = stof(temp);
-		cout << returnFloat;
+		//cout << returnFloat;
 		return returnFloat;
 	}
 };
@@ -95,7 +95,7 @@ int main()
 	char choice[10]="";
 	char temp[50];
 	int length=0;
-	float dummy;
+	//float dummy;
 	float  real_input1, real_input2, img_input1, img_input2;
 	while (*choice!=3)
 	{
@@ -113,20 +113,20 @@ int main()
 				
 				try
 				{
-					StringToFloat stofObj;
+					StringToFloat stringToFloatObj;
 					
 					cout << "enter the real part of first complex number" << endl;
 					cin >> temp;
-					real_input1 = stofObj.convertStringToFloat(temp);
+					real_input1 = stringToFloatObj.convertStringToFloat(temp);
 					cout << "enter the imaginary part of first complex number" << endl;
 					cin >> temp;
-					img_input1 = stofObj.convertStringToFloat(temp);
+					img_input1 = stringToFloatObj.convertStringToFloat(temp);
 					cout << "enter the real part of second complex number" << endl;
 					cin >> temp;
-					real_input2 = stofObj.convertStringToFloat(temp);
+					real_input2 = stringToFloatObj.convertStringToFloat(temp);
 					cout << "enter the imaginary part of second complex number" << endl;
 					cin >> temp;
-					img_input2 = stofObj.convertStringToFloat(temp);
+					img_input2 = stringToFloatObj.convertStringToFloat(temp);
 					
 
 				}
